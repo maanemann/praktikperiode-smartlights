@@ -39,12 +39,13 @@ Opgaven indeholder tre hoved-krav som skal opfyldes. Kravene er opstillet i ræk
   * Download de brugte skrifter og tilføj dem til din css-fil så du ikke er afhængig af Googles font-cdn.
   
 ## Varighed
-Du har 4 arbejdsdage til at løse praktikopgaven.
+Du har 5 arbejdsdage til at løse praktikopgaven.
 
 ## Applikation tech stack
 ReactJS<br>
 React Context<br>
-CSS in JS (valgfrit)<br>
+TailwindCSS el.
+Framer Motion el.
 Github / Netlify (deployment)<br>
 
 ## Matrialer
@@ -54,8 +55,7 @@ Du skal downloade XD filen herfra: https://dribbble.com/shots/7849062-Smart-ligh
 Fonten som bruges i opgaven hedder Circular. Det er dog en købefont. <br>Du kan bruge Google fonten Montserrat som alternativ.
 
 ## Aflevering
-Del-aflevering af det kodede layout fredag d. 7. januar 2022.<br>
-Endelig aflevering af den færdige applikation (inkl. integration af Philips Hue api), fredag d. 21. januar 2022.<br>
+Del-aflevering af det kodede layout tirsdag d. 8. feb 2022. kl. 12:00<br>
 Du har afleveret når din applikation er hostet på Netlify eller github pages og linket hertil er sat ind herunder.<br><br>
 **Projekt url:** Skriv din Netlify / github pages adresse her! Fx.: https://detsmartelys.netlify.app
 

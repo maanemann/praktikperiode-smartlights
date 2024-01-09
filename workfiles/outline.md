@@ -1,0 +1,89 @@
+
+# Outline
+
+- layout
+  - ROUT: control-panel
+    - header
+      - h1: "Control Panel"
+      - profile picture
+    - main
+      - h2: "All Rooms"
+      - rooms nav
+        - li > a(?) > figure
+          - icon
+          - figcap: "Bed room"
+          - Lights count (span)
+        - li > a(?) > figure
+          - icon
+          - figcap: "Living room"
+          - Lights count (span)
+        - li > a(?) > figure
+          - icon
+          - figcap: "Kitchen"
+          - Lights count (span)
+        - li > a(?) > figure
+          - icon
+          - figcap: "Bathroom"
+          - Lights count (span)
+        - li > a(?) > figure
+          - icon
+          - figcap: "Outdoor"
+          - Lights count (span)
+        - li > a(?) > figure
+          - icon
+          - figcap: "Balcony"
+          - Lights count (span)
+  - ROUT: bedroom
+    - header
+      - h1: "Bed Room"
+      - Lights count (span)
+      - lamp illustration (dynamic svg's)
+      - lights nav bar
+        - light 1 (li > a(?) > figure)
+          - icon
+          - figcap: "Main Light"
+        - light 2 (li > a(?) > figure)
+          - icon
+          - figcap: "Desk lights"
+        - light 3 (li > a(?) > figure)
+          - icon
+          - figcap: "Bed Light"
+    - main
+      - section
+        - h2: "Intensity"
+        - div
+          - off icon
+          - div
+            - slider handle
+            - slider track
+          - full icon
+      - section
+        - h2: "Colors"
+        - div
+          - div
+          - div
+          - div
+          - div
+          - div
+          - div
+          - div
+            - span: "+"
+      - section
+        - h2: "Scenes"
+        - div
+          - li > a(?) > figure
+            - scenes icon
+            - figcap: "Birthday"
+          - li > a(?) > figure
+            - scenes icon
+            - figcap: "Party"
+          - li > a(?) > figure
+            - scenes icon
+            - figcap: "Relax"
+          - li > a(?) > figure
+            - scenes icon
+            - figcap: "Fun"
+  - toolbar
+    - button 1
+    - button 2
+    - button 3

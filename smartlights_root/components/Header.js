@@ -16,6 +16,7 @@ const Header = () => {
     grid
     grid-flow-col
     m-4
+    h-fit
   ">
     <h2 onClick={updateTitle}> {title}</h2>
     <ProfilePic />

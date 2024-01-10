@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import ProfilePic from "./ProfilePic";
+import Link from "next/link";
 
 // Kig ulvetime burger menu states
 
@@ -9,7 +10,7 @@ const Header = () => {
   const [title, setTitle] = useState("Control Panel");
 
   function updateTitle() {
-    setTitle("Bed Room");
+    setTitle("");
   }
 
   return ( <header className="
@@ -18,7 +19,15 @@ const Header = () => {
     m-4
     h-fit
   ">
-    <h2 onClick={updateTitle}> {title}</h2>
+    <Link href="/">
+      <h1 onClick={() =>
+          title == "Control Panel"
+            ? setTitle("Bed Room")
+            : setTitle("Control Panel")
+      }>
+        { title }
+      </h1>
+    </Link>
     <ProfilePic />
   </header> );
 };

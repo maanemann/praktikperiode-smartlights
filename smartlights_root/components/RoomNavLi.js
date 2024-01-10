@@ -26,6 +26,8 @@ const RoomNavLi = ({ caption }) => {
           w-10
           aspect-square
           bg-orange-800
+          opacity-85
+          rounded-md
         "></div>
         <figcaption>
           { caption }

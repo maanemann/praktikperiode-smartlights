@@ -12,27 +12,27 @@
         - li > a(?) > figure
           - icon
           - figcap: "Bed room"
-          - Lights count (span)
+            - Lights count (span)
         - li > a(?) > figure
           - icon
           - figcap: "Living room"
-          - Lights count (span)
+            - Lights count (span)
         - li > a(?) > figure
           - icon
           - figcap: "Kitchen"
-          - Lights count (span)
+            - Lights count (span)
         - li > a(?) > figure
           - icon
           - figcap: "Bathroom"
-          - Lights count (span)
+            - Lights count (span)
         - li > a(?) > figure
           - icon
           - figcap: "Outdoor"
-          - Lights count (span)
+            - Lights count (span)
         - li > a(?) > figure
           - icon
           - figcap: "Balcony"
-          - Lights count (span)
+            - Lights count (span)
   - ROUT: bedroom
     - header
       - h1: "Bed Room"

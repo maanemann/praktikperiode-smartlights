@@ -9,9 +9,9 @@ import Link from "next/link";
 const Header = () => {
   const [title, setTitle] = useState("Control Panel");
 
-  function updateTitle() {
-    setTitle("");
-  }
+  // function updateTitle() {
+  //   setTitle("");
+  // }
 
   return ( <header className="
     grid

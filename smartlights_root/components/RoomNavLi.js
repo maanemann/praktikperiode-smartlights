@@ -7,10 +7,11 @@ const RoomNavLi = ({ caption }) => {
     w-32
     aspect-square
     list-none
-    bg-emerald-900
+    bg-[#fbf9f8]
     p-4
     rounded-2xl
     grid
+    shadow-md
   ">
     <Link href="/bedroom">
       <figure className="
@@ -25,7 +26,7 @@ const RoomNavLi = ({ caption }) => {
         <div className="
           w-10
           aspect-square
-          bg-orange-800
+          bg-amber-300
           opacity-85
           rounded-md
         "></div>

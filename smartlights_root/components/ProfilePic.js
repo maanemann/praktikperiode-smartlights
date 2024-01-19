@@ -4,8 +4,8 @@ const ProfilePic = () => {
       justify-self-end
       w-10
       aspect-square
-      p-[.3rem]
-      bg-teal-900
+      p-[.1rem]
+      bg-[#f3f2f6]
       rounded-full
       grid
     ">
@@ -13,7 +13,7 @@ const ProfilePic = () => {
         w-full
         aspect-square
         m-auto
-        bg-emerald-600
+        bg-stone-400
         opacity-90
         rounded-full
       "></div>

@@ -1,9 +1,13 @@
-const ColorOption = ({ color }) => {
-  return ( <div className={`
-    w-6
-    aspect-square
-    rounded-full
-    ${ color }
+
+const ColorOption = ({ className, onClick }) => {
+
+  return ( <div
+    onClick={onClick}
+    className={`
+      w-6
+      aspect-square
+      rounded-full
+      ${ className }
   `} /> );
 }
  

@@ -1,8 +1,8 @@
-const Lamp = () => {
+const Lamp = ({ farve }) => {
   return ( <div className="
     grid
     fixed
-    top-[-8.5rem]
+    top-[-9.5rem]
     right-6 
   ">
 
@@ -29,18 +29,22 @@ const Lamp = () => {
       width: "6rem",
       clipPath: 'polygon(16px 0%, calc(100% - 16px) 0%, 100% 100%, 0% 100%)',
       backgroundColor: 'rgb(231, 229, 228)',
-      borderRadius: '7px'
+      borderRadius: '7px',
+      zIndex: '10'
     }}></div>
 
-    <div className="
+    <div className={`
       w-6
       aspect-square
       border-2
-      border-stone-500
+      border-stone-400
+      ${farve}
+      bg-gradient-radial
       mx-auto
       -mt-3
       rounded-full
-    "></div>
+      drop-shadow-[0_0_1rem_white]
+    `}></div>
   </div> );
 }
  

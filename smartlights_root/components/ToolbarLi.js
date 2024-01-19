@@ -2,7 +2,9 @@ const ToolbarLi = () => {
   return ( <li className="
     w-8
     aspect-square
-    bg-red-200
+    border-2
+    border-[#08459c]
+    bg-blue-200
     opacity-40
     rounded-full
   "></li> );

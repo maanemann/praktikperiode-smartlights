@@ -14,7 +14,8 @@ const Toolbar = () => {
       justify-center
       gap-10
       p-4
-      bg-stone-700
+      bg-[#fbf9f8]
+      shadow-2xl
     "
     aria-label="Main menu"
   >

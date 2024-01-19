@@ -20,7 +20,14 @@ const Header = () => {
     h-fit
   ">
     <Link href="/">
-      <h1 onClick={() =>
+      <h1
+        className="
+          text-[#f3f2f6]
+          text-xl
+          font-semibold
+          w-8
+        "
+        onClick={() =>
           title == "Control Panel"
             ? setTitle("Bed Room")
             : setTitle("Control Panel")

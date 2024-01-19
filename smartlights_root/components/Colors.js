@@ -1,9 +1,7 @@
 
-"use client";
-
 import ColorOption from "./ColorOption";
 
-const Colors = ({ handleRedColor, handleGreenColor, handleCyanColor, handleVioletColor, handleFuchsiaColor, handleOrangeColor }) => {
+const Colors = ({ setFarve, handleRedColor, handleGreenColor, handleCyanColor, handleVioletColor, handleFuchsiaColor, handleOrangeColor }) => {
 
   return (
     <div className="
@@ -11,31 +9,45 @@ const Colors = ({ handleRedColor, handleGreenColor, handleCyanColor, handleViole
       gap-4
     ">
       <ColorOption
-        onClick={handleRedColor}
+        onClick={() => {
+          setFarve("bg-red-400");
+          handleRedColor()
+        }}
         className="bg-red-400 cursor-pointer"
       />
-      {/* <ColorOption
-        onClick={() => {setFarve("bg-red-400")}}
-        className="bg-red-400 cursor-pointer"
-      /> */}
       <ColorOption
-        onClick={handleGreenColor}
+        onClick={() => {
+          setFarve("bg-green-400");
+          handleGreenColor()
+        }}
         className="bg-green-400 cursor-pointer"
       />
       <ColorOption
-        onClick={handleCyanColor}
+        onClick={() => {
+          setFarve("bg-cyan-500");
+          handleCyanColor()
+        }}
         className="bg-cyan-500 cursor-pointer"
       />
       <ColorOption
-        onClick={handleVioletColor}
+        onClick={() => {
+          setFarve("bg-violet-500");
+          handleVioletColor()
+        }}
         className="bg-violet-500 cursor-pointer"
       />
       <ColorOption
-        onClick={handleFuchsiaColor}
+        onClick={() => {
+          setFarve("bg-fuchsia-400");
+          handleFuchsiaColor()
+        }}
         className="bg-fuchsia-400 cursor-pointer"
       />
       <ColorOption
-        onClick={handleOrangeColor}
+        onClick={() => {
+          setFarve("bg-orange-400");
+          handleOrangeColor()
+        }}
         className="bg-orange-400 cursor-pointer"
       />
       <div className="

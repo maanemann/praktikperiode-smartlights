@@ -1,3 +1,7 @@
+
+import Image from "next/image";
+import sceneLight from "../public/room-icons/scene_light.svg"
+
 const ScenesLi = ({ sceneBgColor, sceneTitle }) => {
   return ( <li className={`
     grid
@@ -5,15 +9,27 @@ const ScenesLi = ({ sceneBgColor, sceneTitle }) => {
     h-12
 
     text-center
-    text-orange-950/70
+    text-white
     font-medium
+    text-xs
     tracking-wide
     rounded-lg
     ${sceneBgColor}
   `}>
-    <span className="m-auto">
-      { sceneTitle }
-    </span>
+    <div className="
+      flex
+      m-auto
+      gap-4
+    ">
+      <Image
+        src={sceneLight}
+        width={16}
+        height={16}
+      />
+      <span>
+        { sceneTitle }
+      </span>
+    </div>
   </li> );
 }
  

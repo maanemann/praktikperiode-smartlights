@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import ProfilePic from "./ProfilePic";
 import Link from "next/link";
 
 // Kig ulvetime burger menu states
@@ -35,7 +34,6 @@ const Header = () => {
         { title }
       </h1>
     </Link>
-    <ProfilePic />
   </header> );
 };
 

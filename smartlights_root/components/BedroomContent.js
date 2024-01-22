@@ -13,7 +13,7 @@ const BedroomContent = () => {
   const [farve, setFarve] = useState(null)
   const [powered, setPowered] = useState();
 
-  let body = { on: !powered };
+  let body = { on: powered };
 
   const handlePowerToggle = () => {
     setPowered(!powered);

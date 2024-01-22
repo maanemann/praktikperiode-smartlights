@@ -1,13 +1,16 @@
-const ToolbarLi = () => {
+
+import Image from "next/image";
+
+const ToolbarLi = ({ src, h }) => {
   return ( <li className="
-    w-8
-    aspect-square
-    border-2
-    border-[#08459c]
-    bg-blue-200
-    opacity-40
-    rounded-full
-  "></li> );
+    h-7
+  ">
+    <Image
+      src={ src }
+      width="auto"
+      height={h}
+    />
+  </li> );
 }
  
 export default ToolbarLi;

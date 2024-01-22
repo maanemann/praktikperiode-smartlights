@@ -16,9 +16,61 @@
   }
 }
 
+
+
 body {
   /* color: rgb(var(--foreground-rgb)); */
   background: #08459c;
   font-weight: 500;
   color: rgb(64, 64, 64);
 }
+
+
+/* // #region range-input-styling */
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 15rem;
+  padding: 0 1rem;
+}
+
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+input[type="range"]::-webkit-slider-runnable-track {
+  background: rgb(255, 217, 0);
+  height: 0.15rem;
+}
+
+/******** Firefox ********/
+input[type="range"]::-moz-range-track {
+  background: rgb(255, 217, 0);
+  height: 0.15rem;
+}
+
+/***** Thumb Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -12px; /* Centers thumb on the track */
+  background-color: white;
+  height: .75rem;
+  width: .75rem;
+  border-radius: 100%;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+/***** Firefox *****/
+input[type="range"]::-moz-range-thumb {
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 0; /*Removes default border-radius that FF applies*/
+  background-color: white;
+  height: .75rem;
+  width: .75rem;
+  border-radius: 100%;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+/* // #endregion range-input-styling */

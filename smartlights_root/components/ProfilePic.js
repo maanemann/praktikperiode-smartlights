@@ -4,6 +4,7 @@ const ProfilePic = () => {
       justify-self-end
       w-10
       aspect-square
+      -mt-[5.6rem]
       p-[.1rem]
       bg-[#f3f2f6]
       rounded-full

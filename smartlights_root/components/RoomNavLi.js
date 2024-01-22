@@ -1,8 +1,9 @@
 
 import Link from "next/link";
+import Image from "next/image";
 import LightCount from "./LightCount";
 
-const RoomNavLi = ({ caption }) => {
+const RoomNavLi = ({ caption, icon }) => {
   return ( <li className="
     w-32
     aspect-square
@@ -23,13 +24,20 @@ const RoomNavLi = ({ caption }) => {
         [&_figcaption]:self-end
         [&_span]:self-end
       ">
-        <div className="
-          w-10
-          aspect-square
-          bg-amber-300
-          opacity-85
-          rounded-md
-        "></div>
+        <Image
+          src={icon}
+          width={40}
+          height={40}
+          alt="icon"
+        />
+        {/* <img
+          src="/public/rooms-icons/kitchen.png"
+          className="
+            w-10
+            aspect-square
+            opacity-85
+            rounded-md
+        "></img> */}
         <figcaption>
           { caption }
           <LightCount />
